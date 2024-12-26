@@ -1,4 +1,4 @@
-/* Global styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +15,8 @@
 .br-hero-section {
     position: relative;
     width: 100%;
-    height: 80vh; /* Full viewport height */
-    background-image: url(https://i0.wp.com/escapadesdemalou.com/wp-content/uploads/2018/05/DSCN8160.jpg?fit=1024%2C576&ssl=1); /* Replace with your image path */
+    height: 80vh; 
+    background-image: url(https://i0.wp.com/escapadesdemalou.com/wp-content/uploads/2018/05/DSCN8160.jpg?fit=1024%2C576&ssl=1); 
     
     background-size: cover;
     background-position: center;
@@ -26,7 +26,7 @@
     justify-content: center;
     color: white;
     text-align: center;
-    /* filter: blur(1px); */
+    
 }
 
 /* Content container */
@@ -51,7 +51,7 @@
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7); /* Adds depth to text */
 }
 
-/* Paragraph styling */
+
 .br-hero-content p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -60,33 +60,33 @@
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Media Queries for responsiveness */
 
-/* Tablet and smaller devices */
+
+
 @media (max-width: 768px) {
     .br-hero-section {
-        height: 60vh; /* Adjust height for smaller devices */
+        height: 60vh; 
     }
 
     .br-hero-content {
-        margin: 20px; /* Reduce margins on smaller screens */
+        margin: 20px; 
         padding: 15px;
         margin-top: auto;
     }
 
     .br-hero-content h1 {
-        font-size: 2.5rem; /* Reduce font size for smaller screens */
+        font-size: 2.5rem; 
     }
 
     .br-hero-content p {
-        font-size: 1rem; /* Adjust paragraph font size */
+        font-size: 1rem; 
     }
 }
 
-/* Mobile devices */
+
 @media (max-width: 480px) {
     .br-hero-section {
-        height: 50vh; /* Reduce height even more for very small screens */
+        height: 50vh; 
     }
 
     .br-hero-content {
@@ -105,7 +105,7 @@
 }
 
 
-/* cards style */
+
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -114,7 +114,7 @@
   }
   
   .card:hover {
-    transform: translateY(-5px); /* Adds a hover effect to lift the card */
+    transform: translateY(-5px); 
   }
   
   .card-img-top {
