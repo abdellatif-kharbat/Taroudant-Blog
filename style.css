@@ -1,0 +1,147 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.br-logo{
+    font-weight: 800;
+    color:brown !important;
+    text-shadow: 2px 2px 2px black;
+}
+.br-bold{
+    font-weight: bold !important;
+}
+.br-hero-section {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Full viewport height */
+    background-image: url(https://i0.wp.com/escapadesdemalou.com/wp-content/uploads/2018/05/DSCN8160.jpg?fit=1024%2C576&ssl=1); /* Replace with your image path */
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    /* filter: blur(1px); */
+}
+
+/* Content container */
+.br-hero-content {
+    
+    filter: blur(5);
+    padding: 20px;
+    margin: 60px;
+    border-radius: 10px;
+    max-width: 90%; /* Ensure it doesn't take full width on small screens */
+    width: 80%; /* Limit text width */
+    
+    
+}
+
+/* Heading styling */
+.br-hero-content h1 {
+    font-size: 3rem; 
+    
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7); /* Adds depth to text */
+}
+
+/* Paragraph styling */
+.br-hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet and smaller devices */
+@media (max-width: 768px) {
+    .br-hero-section {
+        height: 60vh; /* Adjust height for smaller devices */
+    }
+
+    .br-hero-content {
+        margin: 20px; /* Reduce margins on smaller screens */
+        padding: 15px;
+        margin-top: auto;
+    }
+
+    .br-hero-content h1 {
+        font-size: 2.5rem; /* Reduce font size for smaller screens */
+    }
+
+    .br-hero-content p {
+        font-size: 1rem; /* Adjust paragraph font size */
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .br-hero-section {
+        height: 50vh; /* Reduce height even more for very small screens */
+    }
+
+    .br-hero-content {
+        margin: 10px;
+        margin-top: auto;
+        padding: 10px;
+    }
+
+    .br-hero-content h1 {
+        font-size: 2rem; 
+    }
+
+    .br-hero-content p {
+        font-size: 0.9rem; 
+    }
+}
+
+
+/* cards style */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Adds a hover effect to lift the card */
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .nav-link:hover{
+    border-bottom: 1px solid red;
+    
+  }
